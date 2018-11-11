@@ -2,5 +2,5 @@
 import shared.util
 
 def call() {
-     output "deploy"
+     echo "deploy"
 }
