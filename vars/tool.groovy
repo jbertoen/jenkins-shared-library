@@ -1,6 +1,6 @@
 #!/usr/bin/groovy
 import shared.util
 
-def deployOutput() {
+def call() {
     util.output "deploy"
 }
