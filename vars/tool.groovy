@@ -1,5 +1,7 @@
 #!/usr/bin/groovy
+import shared.util
 
-def globalOutput(text) {
-    echo text
+def deployOutput() {
+    def util = new util()
+    util.output "deploy"
 }
