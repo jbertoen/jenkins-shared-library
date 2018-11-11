@@ -1,10 +1,9 @@
 #!/usr/bin/groovy
 import shared.util
 
-class Utilities {
+class util {
     def sharedUsage() {
-        util = new util()
-        util.utilOutput("Shared method")
+        echo "deploy"
     }
 }
 
