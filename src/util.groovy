@@ -1,6 +1,11 @@
 #!/usr/bin/groovy
-package shared.util
+import shared.util
 
-def utilOutput(text) {
-    echo text
+class Utilities {
+    def sharedUsage() {
+        util = new util()
+        util.utilOutput("Shared method")
+    }
 }
+
+this
