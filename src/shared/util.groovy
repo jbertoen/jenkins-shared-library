@@ -1,5 +1,5 @@
 #!/usr/bin/groovy
-import shared.util
+package shared.util
 
 def output(text) {
     echo text
