@@ -1,7 +1,7 @@
 #!/usr/bin/groovy
 
 def call() {
-    echo "Call"
+    echo "call"
 }
 
 def deployOutput() {
